@@ -15,10 +15,11 @@ type TopicConfig struct {
 }
 
 type KafkaTopics struct {
-	UserCreate  TopicConfig `mapstructure:"userCreate"`
-	UserCreated TopicConfig `mapstructure:"userCreated"`
-	UserUpdate  TopicConfig `mapstructure:"userUpdate"`
-	UserUpdated TopicConfig `mapstructure:"userUpdated"`
-	UserDelete  TopicConfig `mapstructure:"userDelete"`
-	UserDeleted TopicConfig `mapstructure:"userDeleted"`
+	UserCreate          TopicConfig `mapstructure:"userCreate"`
+	UserCreated         TopicConfig `mapstructure:"userCreated"`
+	UserUpdate          TopicConfig `mapstructure:"userUpdate"`
+	UserUpdated         TopicConfig `mapstructure:"userUpdated"`
+	UserDelete          TopicConfig `mapstructure:"userDelete"`
+	UserDeleted         TopicConfig `mapstructure:"userDeleted"`
+	UserPasswordChanged TopicConfig `mapstructure:"userDeleted"`
 }
