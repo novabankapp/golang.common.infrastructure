@@ -1,7 +1,7 @@
 package logger
 
 import (
-	"github.com/novabankapp/usermanagement/usermanagement/infrastructure/constants"
+	"github.com/novabankapp/golang.common.infrastructure/constants"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"os"

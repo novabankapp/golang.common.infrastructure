@@ -12,3 +12,12 @@ type TopicConfig struct {
 	Partitions        int    `mapstructure:"partitions"`
 	ReplicationFactor int    `mapstructure:"replicationFactor"`
 }
+
+type KafkaTopics struct {
+	UserCreate  TopicConfig `mapstructure:"userCreate"`
+	UserCreated TopicConfig `mapstructure:"userCreated"`
+	UserUpdate  TopicConfig `mapstructure:"userUpdate"`
+	UserUpdated TopicConfig `mapstructure:"userUpdated"`
+	UserDelete  TopicConfig `mapstructure:"userDelete"`
+	UserDeleted TopicConfig `mapstructure:"userDeleted"`
+}

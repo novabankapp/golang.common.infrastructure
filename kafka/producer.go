@@ -2,7 +2,7 @@ package kafka
 
 import (
 	"context"
-	"github.com/novabankapp/usermanagement/usermanagement/infrastructure/logger"
+	"github.com/novabankapp/golang.common.infrastructure/logger"
 	"github.com/segmentio/kafka-go"
 )
 
